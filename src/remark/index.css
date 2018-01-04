@@ -1,0 +1,16 @@
+.remark{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate3d(-50%,-50%,0);
+	-o-transform:translate3d(-50%,-50%,0);
+	-ms-transform:translate3d(-50%,-50%,0);
+	-webkit-transform:translate3d(-50%,-50%,0);
+	display:inline-block;
+	background:rgba(0,0,0,0.3);
+	color:#ffffff;
+	padding:10px 20px;
+	border-radius:5px;
+	text-align:center;
+	font-family:'Microsoft Yahei'
+}

@@ -1,0 +1,44 @@
+.commentBox{
+	font-family:'Microsoft Yahei';
+	width:400px;
+	margin:20px auto;
+	background:#ffffff;
+	border:#dddddd solid 1px;
+	overflow:hidden;
+	margin-bottom:0;
+	border-bottom:none;
+	box-sizing:border-box;
+}
+.commentBox .comment-line{
+	overflow:hidden;
+	margin:20px;
+}
+.commentBox .title{
+	display:block;
+	float:left;
+	width:100px;
+}
+.commentBox .input-box{
+	width:250px;
+	border:#dddddd 1px solid;
+	box-sizing:content-box;
+}
+.commentBox .user-name input{
+	height:30px;
+}
+.commentBox .comment-context textarea{
+	height:100px;
+	resize:none;
+}
+.commentBox .submit-btn{
+	float:right;
+	height:30px;
+	line-height:30px;
+	width:80px;
+	border:none;
+	background:#0088cc;
+	border-radius:5px;
+	color:#ffffff;
+	margin:0 25px 20px;
+	cursor:pointer;
+}

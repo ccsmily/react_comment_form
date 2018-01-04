@@ -1,0 +1,26 @@
+.commentList{
+	font-family:'Microsoft Yahei';
+	width:400px;
+	background:#ffffff;
+	overflow:hidden;
+	margin: 0 auto;
+	margin-bottom:20px;
+	border:#ddd solid 1px;
+	border-top:none;
+	padding:20px;
+	box-sizing:border-box;
+}
+.commentList .line{
+	height:1px;
+	width:100%;
+	background:#ddd;
+}
+.commentList .cont{
+	line-height:25px;
+	height:25px;
+}
+.commentList .username{
+	color:#0088cc;
+	font-style:italic;
+	padding:20px;
+}
